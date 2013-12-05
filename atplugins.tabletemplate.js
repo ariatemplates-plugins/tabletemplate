@@ -1,0 +1,1 @@
+aria.core.DownloadMgr.updateUrlMap({atplugins:{tabletemplate:{TableCfgBeans:"atplugins.tabletemplate-11090242444c2a3b210f61a2cedd2c34.js",TableScript:"atplugins.tabletemplate-11090242444c2a3b210f61a2cedd2c34.js",Table:"atplugins.tabletemplate-11090242444c2a3b210f61a2cedd2c34.js","TableStyle.tpl":"atplugins.tabletemplate-11090242444c2a3b210f61a2cedd2c34.js"}}});
