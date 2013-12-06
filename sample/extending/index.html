@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <title>Extended AT Table Template Plugin</title>
+        <meta content="" name="description">
+        <meta content="width=device-width" name="viewport">
+        <script type="text/javascript">
+          if (document.location.href.indexOf("debug=true") != -1) {
+            Aria = {debug : true};
+          } else {
+            Aria = {};
+          }
+        </script>
+        <script type="text/javascript">
+          var devMode = document.location.href.indexOf("devMode=true") != -1;
+          if(devMode) {
+            document.write('<scr' + 'ipt language="JavaScript" src="http://cdn.ariatemplates.com/at1412.js?skin&dev"> </scri' + 'pt>');
+          } else {
+            document.write('<scr' + 'ipt language="JavaScript" src="http://cdn.ariatemplates.com/at1412.js?skin"> </scri' + 'pt>');
+            document.write('<scr' + 'ipt language="JavaScript" src="../atplugins.tabletemplate.js"> </scri' + 'pt>');
+          }
+        </script>
+        <script type="text/javascript">
+          aria.core.AppEnvironment.setEnvironment({
+            appSettings:{
+              devMode: true
+            },
+            widgetSettings : {
+              middleAlignment: true
+            }
+          });
+        </script>
+        
+        <style>
+          h1 {
+            font-size: 40px;
+            font-weight: 400;
+            color: #bfd730;
+          }
+          h2 {
+
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 700;
+          color: #5092bd;
+          }
+
+          body {
+            padding: 5px;
+            margin: 10px 25px;
+            font-family: 'Ubuntu',sans-serif;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="output"></div>
+
+    <script type="text/javascript">
+        Aria.loadTemplate({
+            classpath: "extending.SampleTemplate",
+            div: "output",
+            data: {}
+        });
+    </script>
+    </body>
+</html>

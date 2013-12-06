@@ -1,0 +1,6 @@
+node_modules
+build/output
+.project
+.settings
+.classpath
+*.log
