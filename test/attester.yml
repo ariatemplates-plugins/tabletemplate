@@ -6,7 +6,7 @@ resources:
 tests:
  aria-templates:
   extraScripts:
-   - http://cdn.ariatemplates.com/at1412.js?skin
+   - http://cdn.ariatemplates.com/at154.js?skin
   classpaths:
    includes:
     - test.PluginTestSuite

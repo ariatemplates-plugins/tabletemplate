@@ -188,7 +188,7 @@ Aria.tplScriptDefinition({
         },
         _refreshTable : function () {
             this.$refresh({
-                outputSection : this.cfg.tableSectionId
+                section : this.cfg.tableSectionId
             });
         },
         _createDefaultSortFunction : function (col) {
